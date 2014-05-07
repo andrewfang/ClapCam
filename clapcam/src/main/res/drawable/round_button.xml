@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Inspired from http://stackoverflow.com/questions/1521640/standard-android-button-with-a-different-color/1726352#1726352-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape
+            android:shape="oval">
+            <stroke
+                android:width="3dp"
+                android:color="#6c6c6c" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="oval">
+            <stroke
+                android:width="3dp"
+                android:color="#afafaf" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
